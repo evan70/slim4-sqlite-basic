@@ -1,0 +1,27 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5",
+        "php-di/php-di": "^6.3",
+        "eftec/bladeone": "^4.1",
+        "php-di/slim-bridge": "^3.1",
+        "illuminate/support": "^8.64",
+        "illuminate/database": "^8.64",
+        "robmorgan/phinx": "^0.12.9",
+        "slim/csrf": "^1.2",
+        "symfony/http-foundation": "^5.3",
+        "tuupola/slim-jwt-auth": "^3.5",
+        "phpmailer/phpmailer": "^6.5",
+        "matthiasmullie/scrapbook": "^1.4",
+        "league/flysystem": "^2.3",
+        "illuminate/pagination": "^8.64"
+    },
+    "autoload": {
+        "files": [
+            "./app/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
