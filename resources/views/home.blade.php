@@ -11,7 +11,7 @@
         @endif
         <h1 class="text-center">{{ $title }}</h1>
         @if($user)
-            <h2>Vitaj, {{ $user }}!</h2>
+            <h2>Привет, {{ $user }}!</h2>
         @endif
         <div>{!! $content !!}</div>
     </div>
