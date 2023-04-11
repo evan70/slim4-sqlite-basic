@@ -16,23 +16,23 @@ class MenuSeeder extends AbstractSeed
     {
         $data = [
             [
-                'title'  => 'Home',
+                'title'  => 'Domov',
                 'link' => '/',
             ],
             [
-                'title'  => 'О nás',
+                'title'  => 'О компании',
                 'link' => '/about',
             ],
             [
-                'title'  => 'Registrovať',
+                'title'  => 'Регистрация',
                 'link' => '/register',
             ],
             [
-                'title'  => 'Vchod',
+                'title'  => 'Вход',
                 'link' => '/login',
             ],
             [
-                'title'  => 'Exit',
+                'title'  => 'Logout',
                 'link' => '/logout',
             ],
         ];
