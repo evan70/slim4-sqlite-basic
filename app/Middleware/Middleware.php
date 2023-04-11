@@ -24,7 +24,7 @@ class Middleware
         /**
          * CSRF protection.
          */
-        //$app->add($app->getContainer()->get('csrf')); // register middleware to be executed on all routes
+        // $app->add($app->getContainer()->get('csrf')); // register middleware to be executed on all routes
 
         /**
          * JWT Authentication Middleware.

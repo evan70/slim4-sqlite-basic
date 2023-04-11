@@ -200,8 +200,8 @@ if (!function_exists('pagination'))
             foreach ($items as $item)
             {
                 $label = $item['label'];
-                if ($item['label'] === 'Previous') $label = 'Назад';
-                if ($item['label'] === 'Next') $label = 'Вперед';
+                if ($item['label'] === 'Previous') $label = '<<--';
+                if ($item['label'] === 'Next') $label = '-->>';
                 $liClass = 'page-item';
                 if ($item['active']) $liClass .= ' active';
                 if (!$item['url']) $liClass .= ' disabled';

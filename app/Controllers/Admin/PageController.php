@@ -9,9 +9,9 @@ class PageController extends Controller
 {
     public function index($response)
     {
-        $pages = Page::paginate(5);
+        $pages = Page::paginate(15);
         $pages->withPath(config('admin.path').'/pages');
-        $title = 'Zoznam stránok';
+        $title = 'Список страниц';
         $success = $this->session->getFlashBag()->get('success');
         $errors = $this->session->getFlashBag()->get('errors');
 
@@ -42,7 +42,7 @@ class PageController extends Controller
 
         if (!$title || !$slug)
         {
-            $this->session->getFlashBag()->add('errors', 'Polia "Úvod" a "Slug" sú povinné');
+            $this->session->getFlashBag()->add('errors', 'Поля "Заголовок" и "Слаг" обязательные для заполнения');
             return $response->withHeader('Location', $url);
         }
 
@@ -89,7 +89,7 @@ class PageController extends Controller
             }
         }
 
-        $this->session->getFlashBag()->add('success', 'Stránka bola zmenená');
+        $this->session->getFlashBag()->add('success', 'Страница обновлена');
 
         return $response->withHeader('Location', config('admin.path').'/pages');
     }
