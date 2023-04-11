@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'name' => 'Responsive Slim',
+    'name' => 'SlimResp App',
     'cache' => [
-        'enable' => true,
+        'enable' => false,
         'path' => __DIR__ . '/../tmp/cache'
     ]
 ];

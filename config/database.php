@@ -1,8 +1,15 @@
 <?php
 
 return [
-    'driver'    => 'sqlite',
-    'database'  => '/home/evan/www/php/slim-basic-app-admin-panel/database/slim-app.db',
-    'charset'   => 'utf8',
-    'prefix'    => '',
+    // 'driver' => 'mysql',
+    // 'host' => 'localhost',
+    // 'port' => '3306',
+    // 'database' => 'slim4',
+    // 'username' => 'evan',
+    // 'password' => 'cisielka',
+    // 'charset' => 'utf8'
+    'driver' => 'sqlite',
+        'database' => database_path('db.sqlite3'),
+        'charset' => 'utf8',
+        'prefix'    => ''
 ];

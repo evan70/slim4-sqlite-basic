@@ -10,13 +10,15 @@ return [
        'default_database' => 'slim-app',
        'slim-app' => [
            'adapter' => 'sqlite',
-           'name' => '/home/evan/www/php/slim-basic-app-admin-panel/database/slim-app',
-           'suffix' => '.db',
-            //'port' => '3306',
-            //'name' => 'slim-app',
-            //'user' => 'root',
-            //'pass' => 'root',
-            'charset' => 'utf8'
+                // 'host' => 'localhost',
+                // 'port' => '3306',
+                // 'name' => 'slim44',
+                // 'user' => 'evan',
+                // 'pass' => 'cisielka',
+                // 'charset' => 'utf8'
+                'name' => database_path('db'),
+                'charset' => 'utf8',
+                'prefix'    => ''
        ]
    ]
 ];

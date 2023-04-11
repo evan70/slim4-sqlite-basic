@@ -2,8 +2,8 @@
 
 return [
     'driver' => 'mail',
-    'host' => '',
-    'port' => '',
+    'host' => 'mailpit',
+    'port' => '1025',
     'from' => [
         'address' => 'info@slim-app.loc',
         'name' => 'Slim Basic App'
