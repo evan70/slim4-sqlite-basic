@@ -49,10 +49,10 @@ $container->set('cache', $cache);
 $capsule = new Capsule;
 $capsule->addConnection([
     'driver' => config('database.driver'),
-    //'host' => config('database.host'),
+    // 'host' => config('database.host'),
     'database' => config('database.database'),
-    //'username' => config('database.username'),
-    //'password' => config('database.password'),
+    // 'username' => config('database.username'),
+    // 'password' => config('database.password'),
     'charset' => config('database.charset')
 ]);
 $capsule->setAsGlobal();
