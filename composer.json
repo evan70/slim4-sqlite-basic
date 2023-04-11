@@ -14,8 +14,7 @@
         "phpmailer/phpmailer": "^6.5",
         "matthiasmullie/scrapbook": "^1.4",
         "league/flysystem": "^2.3",
-        "illuminate/pagination": "^8.64",
-        "roelofjan-elsinga/aloia-cms-gui": "^4.0"
+        "illuminate/pagination": "^8.64"
     },
     "autoload": {
         "files": [
