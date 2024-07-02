@@ -4,7 +4,7 @@ window.addEventListener('load', function() {
     if (deleteIcons.length > 0) {
         for (let icon of deleteIcons) {
             icon.addEventListener('click', function(event) {
-                const result = confirm('Удалить?');
+                const result = confirm('Vymazať?');
                 if (!result) event.preventDefault();
             });
         }

@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="content">
-        <h1 class="text-center mt-0">Ошибка {{ $code }}</h1>
+        <h1 class="text-center mt-0">Chyba {{ $code }}</h1>
         @if($code == 404)
-            <p class="text-center">Упс... страница не найдена</p>
+            <p class="text-center">Ups ... stránka nenájdená</p>
         @endif
         <p class="text-center">
-            <a href="/">На главную</a>
+            <a href="/">Domov</a>
         </p>
         @if($htmlException)
             {!! $htmlException !!}

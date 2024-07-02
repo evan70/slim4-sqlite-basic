@@ -15,11 +15,11 @@
 
     <form method="POST" action="">
         <div class="mb-3">
-            <label for="name" class="form-label">Заголовок</label>
+            <label for="name" class="form-label">Názov</label>
             <input type="text" name="title" class="form-control" id="title" value="" required>
         </div>
         <div class="mb-3">
-            <label for="slug" class="form-label">Слаг</label>
+            <label for="slug" class="form-label">Slug</label>
             <input type="text" name="slug" class="form-control" id="slug" value="" required>
         </div>
         <div class="mb-3">
@@ -30,7 +30,7 @@
             <label for="content" class="form-label">Содержание</label>
             <textarea class="form-control" name="content" id="content" rows="5"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Сохранить</button>
-        <a href="{{ config('admin.path').'/pages' }}" class="btn btn-secondary">Отменить</a>
+        <button type="submit" class="btn btn-primary">Uložiť</button>
+        <a href="{{ config('admin.path').'/pages' }}" class="btn btn-secondary">Zrušiť operáciu</a>
     </form>
 @endsection

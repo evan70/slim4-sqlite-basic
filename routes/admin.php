@@ -11,7 +11,7 @@ use Slim\Routing\RouteCollectorProxy;
 return function(App $app)
 {
     $app->group(config('admin.path'), function (RouteCollectorProxy $group) {
-        $group->get('/dashboard', [AdminController::class, 'index']);
+        $group->get('/', [AdminController::class, 'index']);
 
         $group->get('/users', [UserController::class, 'index']);
         $group->get('/users/{id:[0-9]+}', [UserController::class, 'show']);

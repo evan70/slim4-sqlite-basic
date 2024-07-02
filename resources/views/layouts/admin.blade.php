@@ -20,7 +20,7 @@
         </div>
     </div>
     <script src="/js/bootstrap.js"></script>
-    <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.24.0-lts/standard/ckeditor.js"></script>
     <script src="/js/admin.js"></script>
 </body>
 </html>

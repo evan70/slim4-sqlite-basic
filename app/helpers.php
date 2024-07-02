@@ -3,6 +3,7 @@
 /* Global helper functions */
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+//use Illuminate\Support\Collection;
 
 if (!function_exists('base_path'))
 {

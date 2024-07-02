@@ -51,7 +51,7 @@
                         </td>
                         <td>
                             @if($user->is_admin)
-                                Да
+                                Je admin
                             @endif
                         </td>
                         <td>
@@ -76,6 +76,6 @@
         </table>
         {{ pagination($users) }}
     @elseif(!$users)
-        <p>Пользователей не найдено</p>
+        <p>No user found</p>
     @endif
 @endsection
