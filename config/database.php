@@ -6,7 +6,7 @@ return [
     // 'port' => '3306',
     // 'database' => 'slim4',
     // 'username' => 'evan',
-    // 'password' => 'cisielka',
+    // 'password' => 'passss',
     // 'charset' => 'utf8'
     'driver' => 'sqlite',
         'database' => database_path('db.sqlite3'),
